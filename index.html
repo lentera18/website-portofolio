@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio showcasing my work, skills, and services"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, web developer, designer, services"
+    />
+    <meta name="author" content="Your Name" />
+    <title>Lentera | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/dark-mode.css"
+      id="darkModeStyle"
+      disabled
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- <link rel="form" href="https://formspree.io/f/xrbykzpp" /> -->
+  </head>
+  <body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Muhammad <span>lentera</span></a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Hi, I'm <span>Lentera</span></h1>
+          <h2 class="hero-subtitle">
+            Professional <span class="typed-text"></span>
+          </h2>
+          <p class="hero-text">
+            I create stunning digital experiences that help businesses grow and
+            succeed in the online world.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="assets/cv Lentera.pdf" download class="btn btn-secondary"
+              >Download CV</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-image3.png" alt="Your Name" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About <span>Me</span></h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="images/about-image.png" alt="About Me" loading="lazy" />
+          </div>
+          <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>
+              I'm a passionate professional with expertise in web development,
+              design, and digital strategy.
+            </p>
+
+            <div class="skills">
+              <h4>My Skills</h4>
+              <div class="skill-item">
+                <p>Web Development</p>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p>UI/UX Design</p>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p>Digital Marketing</p>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-info">
+              <div class="info-item">
+                <span>Name:</span>
+                <p>Muhammad Lentera Bawono Jati</p>
+              </div>
+              <div class="info-item">
+                <span>Email:</span>
+                <p>lenteralif123@gmail</p>
+              </div>
+              <div class="info-item">
+                <span>Experience:</span>
+                <p>1+ years</p>
+              </div>
+              <div class="info-item">
+                <span>Freelance:</span>
+                <p>Available</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span>Portfolio</span></h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="game">
+            Game Development
+          </button>
+          <button class="filter-btn" data-filter="joki">web improvement</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="web">
+            <img src="images/project2.png" alt="Project 1" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>E-commerce Website</h3>
+              <p>Web Design</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <img src="images/ppdb1.png" alt="Project 2" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>PPDB</h3>
+              <p>Website Development</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="game">
+            <img src="images/game1.png" alt="Project 3" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>Game</h3>
+              <p>Game Developer</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="joki">
+            <img src="images/desa1.png" alt="Project 4" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>Village Complaint</h3>
+              <p>Web Improvement</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <img src="images/pos1.png" alt="Project 5" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>Poin Of Sale</h3>
+              <p>Web Development</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <img src="images/wordpres1.png" alt="Project 6" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>Wordpress</h3>
+              <p>Web Development</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <img src="images/chatbot1.png" alt="Project 7" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>AI</h3>
+              <p>Web Development</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <!-- <div class="portfolio-item" data-category="joki">
+            <img src="images/pos2.png" alt="Project 5" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>Sistem POS</h3>
+              <p>Web Improvement</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div> -->
+          <div class="portfolio-item" data-category="joki">
+            <img src="images/pos2.png" alt="Project 8" loading="lazy" />
+            <div class="portfolio-overlay">
+              <h3>Sistem POS</h3>
+              <p>Web Improvement</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span>Services</span></h2>
+          <p class="section-subtitle">What I offer</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Custom website development tailored to your business needs with
+              modern technologies.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Beautiful and intuitive user interfaces that enhance user
+              experience and engagement.
+            </p>
+          </div>
+          <!-- <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>App Development</h3>
+            <p>
+              Cross-platform mobile applications that work seamlessly on all
+              devices.
+            </p>
+          </div> -->
+          <!-- <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-search-dollar"></i>
+            </div>
+            <h3>SEO Optimization</h3>
+            <p>
+              Improve your search engine rankings and drive more organic traffic
+              to your site.
+            </p>
+          </div> -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>Digital Marketing</h3>
+            <p>
+              Comprehensive digital marketing strategies to grow your online
+              presence.
+            </p>
+          </div>
+          <!-- <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Analytics</h3>
+            <p>
+              Data-driven insights to help you make informed business decisions.
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact <span>Me</span></h2>
+          <p class="section-subtitle">Get in touch</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-text">
+                <h3>Location</h3>
+                <p>Purworejo, Jawa Tengah</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-text">
+                <h3>Email</h3>
+                <p>lenteralif123@gmail.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="info-text">
+                <h3>Phone</h3>
+                <p>0853 2932 6777</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="info-text">
+                <h3>Website</h3>
+                <p>www.lentera | Portfolio.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <form class="contact-form" id="contactForm">
+          <form action="https://formspree.io/f/xrbykzpp" method="POST">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section> -->
+          <!-- Formspree Form -->
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formspree.io/f/xrbykzpp"
+            method="POST"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+
+          <!-- Notifikasi -->
+          <div id="formAlert" style="margin-top: 15px; display: none"></div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const form = document.getElementById("contactForm");
+      const alertBox = document.getElementById("formAlert");
+
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(form);
+
+        try {
+          const response = await fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: { Accept: "application/json" },
+          });
+
+          if (response.ok) {
+            alertBox.style.display = "block";
+            alertBox.style.color = "green";
+            alertBox.innerText = "✅ Pesan berhasil dikirim!";
+            form.reset();
+          } else {
+            alertBox.style.display = "block";
+            alertBox.style.color = "red";
+            alertBox.innerText = "❌ Terjadi kesalahan. Coba lagi.";
+          }
+        } catch (error) {
+          alertBox.style.display = "block";
+          alertBox.style.color = "red";
+          alertBox.innerText = "⚠️ Gagal menghubungi server.";
+        }
+      });
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <a href="#" class="logo">Muhammad <span>Lentera</span></a>
+            <p>
+              Creating digital experiences that matter. Let's build something
+              amazing together.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/lentera18"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+              <li><a href="#">App Development</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">SEO Optimization</a></li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to my newsletter for the latest updates.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your Email" required />
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; <span id="year"></span> Lentera. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

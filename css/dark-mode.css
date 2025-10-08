@@ -1,0 +1,82 @@
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .navbar.scrolled {
+  background-color: rgba(30, 30, 30, 0.95);
+}
+
+.dark-mode .logo,
+.dark-mode .nav-links a,
+.dark-mode .hamburger .line {
+  color: #e0e0e0;
+}
+
+.dark-mode .hero {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .hero-text,
+.dark-mode .about-text p,
+.dark-mode .info-item p {
+  color: #b0b0b0;
+}
+
+.dark-mode .portfolio,
+.dark-mode .contact {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .service-card {
+  background-color: #252525;
+  color: #e0e0e0;
+}
+
+.dark-mode .service-card:hover {
+  background-color: var(--primary-color);
+}
+
+.dark-mode .contact-form {
+  background-color: #252525;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+  background-color: #333;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+.dark-mode .form-group input:focus,
+.dark-mode .form-group textarea:focus {
+  border-color: var(--primary-color);
+}
+
+.dark-mode .footer {
+  background-color: #0a0a0a;
+}
+
+.dark-mode .footer-links ul li a,
+.dark-mode .footer-about p {
+  color: #b0b0b0;
+}
+
+.dark-mode .dark-mode-toggle {
+  background-color: #333;
+}
+
+.dark-mode .dark-mode-toggle i.fa-moon {
+  opacity: 0;
+}
+
+.dark-mode .dark-mode-toggle i.fa-sun {
+  opacity: 1;
+  color: #ffeb3b;
+}
