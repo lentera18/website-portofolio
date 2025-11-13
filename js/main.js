@@ -95,7 +95,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Typed.js Animation
   if (document.querySelector(".typed-text")) {
     const typed = new Typed(".typed-text", {
-      strings: ["Web Developer", "UI/UX Designer", "Digital Marketer"],
+      strings: [
+        "Web Developer",
+        "Video Editor",
+        "UI/UX Designer",
+        "Digital Marketer",
+      ],
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,
